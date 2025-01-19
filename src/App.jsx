@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage/HomePage";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio">
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>

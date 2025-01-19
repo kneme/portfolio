@@ -16,7 +16,7 @@
     ],
     "link": "https://kasa-ks34.onrender.com",
     "githubLink": "https://github.com/kneme/ocr_kasa.git",
-    "image": "/src/assets/images/kasa.webp"
+    "image": "/portfolio/images/kasa.webp"
   },
   {
     "id": 2,
@@ -28,7 +28,7 @@
     "skills": ["HTML", "CSS", "Responsive", "Git"],
     "link": "https://booki-zigs.onrender.com",
     "githubLink": "https://github.com/kneme/ocr_booki.git",
-    "image": "/src/assets/images/booki.webp"
+    "image": "/portfolio/images/booki.webp"
   },
   {
     "id": 3,
@@ -47,7 +47,7 @@
       "Green Code"
     ],
     "githubLink": "https://github.com/kneme/ocr_grimoire.git",
-    "image": "/src/assets/images/grimoire.webp"
+    "image": "/portfolio/images/grimoire.webp"
   },
   {
     "id": 4,
@@ -59,6 +59,6 @@
     "skills": ["JavaScript", "API", "Event Handling", "VSCode"],
     "link": "https://sophie-bluel-yrib.onrender.com",
     "githubLink": "https://github.com/kneme/ocr_sophie-bluel.git",
-    "image": "/src/assets/images/sbluel.webp"
+    "image": "/portfolio/images/sbluel.webp"
   }
 ]
