@@ -1,0 +1,17 @@
+.footer {
+  background-color: var(--footer-bg);
+  color: white;
+  display: flex;
+  font-size: 1.18vw;
+  justify-content: flex-end;
+  padding: 1.5vw 3vw;
+  @media (max-width: 768px) {
+    font-size: 3vw;
+    justify-content: center;
+    padding: 3vw;
+  }
+  @media (max-width: 1024px) and (min-width: 769px) {
+    font-size: 1.5vw;
+    padding: 2vw 3vw;
+  }
+}

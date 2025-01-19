@@ -1,0 +1,15 @@
+@mixin flexboxSetup($d, $j, $a) {
+  display: $d;
+  justify-content: $j;
+  align-items: $a;
+}
+
+@mixin widthHeight($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+@mixin marginPadding($m, $p) {
+  margin: $m;
+  padding: $p;
+}

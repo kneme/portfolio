@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "title": "High School Diploma (Bac S)",
+    "school": "Boisjoly Potier",
+    "kind": "diploma"
+  },
+  {
+    "id": 2,
+    "title": "Web Developer (Bac +2)",
+    "school": "OpenClassrooms",
+    "kind": "diploma"
+  },
+  {
+    "id": 3,
+    "title": "Introduction to Computer Science and Programming Using Python",
+    "school": "Massachusetts Institute of Technology",
+    "kind": "certification",
+    "link": "https://courses.edx.org/certificates/00199fd06f9f45079dd9180a0f6f1096"
+  },
+  {
+    "id": 4,
+    "title": "Introduction to Computational Thinking and Data Science",
+    "school": "Massachusetts Institute of Technology",
+    "kind": "certification",
+    "link": "https://courses.edx.org/certificates/b035bdd601214dfc82f1d2431930880b"
+  },
+  {
+    "id": 5,
+    "title": "How to Code: Simple Data",
+    "school": "University of British Columbia",
+    "kind": "certification",
+    "link": "https://courses.edx.org/certificates/aa9394d028fd45fc9e704fa9cad7c3a9"
+  },
+  {
+    "id": 6,
+    "title": "Programming Languages, Part A",
+    "school": "University of Washington",
+    "kind": "certification",
+    "link": "https://www.coursera.org/account/accomplishments/verify/WUJBAWYJ7KUF"
+  },
+  {
+    "id": 7,
+    "title": "Programming Languages, Part B",
+    "school": "University of Washington",
+    "kind": "certification",
+    "link": "https://www.coursera.org/account/accomplishments/verify/2YMZZPRYC5LY"
+  }
+]

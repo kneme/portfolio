@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "title": "Kasa",
+    "kind": "Frontend",
+    "alt": "Homepage screenshot of the project Kasa showing a banner and room cards",
+    "description": "Modern front-end application with CSS animations.",
+    "challenges": "Router, Algorithms, Props & State",
+    "skills": [
+      "React",
+      "Vite",
+      "Sass",
+      "CSS Animations",
+      "State Management",
+      "JSON"
+    ],
+    "link": "https://kasa-ks34.onrender.com",
+    "githubLink": "https://github.com/kneme/ocr_kasa.git",
+    "image": "/src/assets/images/kasa.webp"
+  },
+  {
+    "id": 2,
+    "title": "Booki",
+    "kind": "Frontend",
+    "alt": "Homepage screenshot of the project Booki showing a search bar, search filters and room cards",
+    "description": "Creation of a responsive homepage using HTML and CSS.",
+    "challenges": "HTML tags, Pixel-perfect design, Flexbox, Fontawesome, Version control",
+    "skills": ["HTML", "CSS", "Responsive", "Git"],
+    "link": "https://booki-zigs.onrender.com",
+    "githubLink": "https://github.com/kneme/ocr_booki.git",
+    "image": "/src/assets/images/booki.webp"
+  },
+  {
+    "id": 3,
+    "title": "Grimoire",
+    "kind": "Frontend / Backend",
+    "alt": "Homepage screenshot of the project Grimoire showing a gallery of book covers and their ratings",
+    "description": "Back-end development with an Express server connected to a database.",
+    "challenges": "Protected routes, Data security, Image optimisation, Algorithms",
+    "skills": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "CRUD",
+      "MVC Architecture",
+      "REST API",
+      "Green Code"
+    ],
+    "githubLink": "https://github.com/kneme/ocr_grimoire.git",
+    "image": "/src/assets/images/grimoire.webp"
+  },
+  {
+    "id": 4,
+    "title": "Sophie Bluel",
+    "kind": "Frontend",
+    "alt": "Homepage screenshot of the project showing search filters and images about architecture",
+    "description": "Front-end development of a dynamic web page using JavaScript, including data retrieval and display from an API.",
+    "challenges": "DOM manipulations without page reload, Event handling, Admin login, Algorithms, Forms",
+    "skills": ["JavaScript", "API", "Event Handling", "VSCode"],
+    "link": "https://sophie-bluel-yrib.onrender.com",
+    "githubLink": "https://github.com/kneme/ocr_sophie-bluel.git",
+    "image": "/src/assets/images/sbluel.webp"
+  }
+]

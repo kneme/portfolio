@@ -1,0 +1,170 @@
+@use "../../../../styles/mixins" as *;
+
+.modalOverlay {
+  background: var(--modal-ovlay-bg);
+  left: 0;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  @include flexboxSetup(flex, center, center);
+  @include widthHeight(100%, 100%);
+}
+
+.modalContent {
+  aspect-ratio: 2/1;
+  background: var(--modal-bg);
+  border-radius: 0.5vw;
+  display: flex;
+  flex: 1 1 0;
+  gap: 1.5vw;
+  min-width: 0;
+  position: relative;
+  @include marginPadding(0 10vw, 1vw);
+  @media (max-width: 768px) {
+    aspect-ratio: 1/1;
+    border-radius: 1vw;
+    margin: 0 5vw;
+  }
+  @media (max-width: 1024px) and (min-width: 769px) {
+    margin: 0 4vw;
+  }
+
+  .workImage {
+    padding: 2.3vw;
+    @include widthHeight(50%, 100%);
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .workDetails {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.3vw;
+    padding: 2.3vw;
+    @include widthHeight(40%, 100%);
+    @media (max-width: 768px) {
+      margin: 2.3vw;
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 1.5vw;
+      text-align: center;
+      @include marginPadding(0, 0);
+      @media (max-width: 768px) {
+        font-size: 4vw;
+      }
+      @media (max-width: 1024px) and (min-width: 769px) {
+        font-size: 2vw;
+      }
+    }
+
+    h3 {
+      font-size: 1.4vw;
+      font-weight: 600;
+      margin: 0 0 0.2vw 0;
+      @media (max-width: 768px) {
+        font-size: 3vw;
+      }
+      @media (max-width: 1024px) and (min-width: 769px) {
+        font-size: 1.6vw;
+      }
+    }
+
+    p {
+      font-size: 1.4vw;
+      font-weight: 300;
+      margin: 0 0 1.5vw 0;
+      @media (max-width: 768px) {
+        font-size: 3vw;
+        margin: 0 0 3vw 0;
+      }
+      @media (max-width: 1024px) and (min-width: 769px) {
+        font-size: 1.56vw;
+      }
+    }
+
+    a {
+      color: var(--link);
+      display: inline-block;
+      flex: 1;
+      font-size: 1.2vw;
+      padding: 0.5vw 0;
+      text-align: center;
+      text-decoration: none;
+      &:hover,
+      &:active {
+        background-color: var(--modal-link-box-hover);
+      }
+      @media (max-width: 768px) {
+        font-size: 3vw;
+        padding: 1.5vw 0;
+      }
+      @media (max-width: 1024px) and (min-width: 769px) {
+        font-size: 1.3vw;
+        padding: 1vw 0;
+      }
+    }
+  }
+
+  .textBox {
+    background-color: var(--modal-text-bg);
+    border-radius: 0.5vw;
+    max-height: 27vw;
+    overflow: scroll;
+    @include marginPadding(1.5vw 0, 1.1vw 1.8vw);
+    @media (max-width: 768px) {
+      border-radius: 1vw;
+      max-height: none;
+      @include marginPadding(5vw 0, 2vw 3vw);
+    }
+    @media (max-width: 1024px) and (min-width: 769px) {
+      @include marginPadding(2vw 0, 1.5vw 2vw);
+    }
+  }
+
+  .linksContainer {
+    align-items: center;
+    background-color: var(--modal-text-bg);
+    border-radius: 0.5vw;
+    display: flex;
+    margin-top: auto;
+    overflow: hidden;
+    @media (max-width: 768px) {
+      border-radius: 1vw;
+      @include widthHeight(100%, 7vw);
+    }
+    @media (max-width: 1024px) and (min-width: 769px) {
+      @include widthHeight(100%, 3vw);
+    }
+  }
+
+  .closeButton {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.7vw;
+    padding: 1vw 1.2vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: color 0.3s;
+    &:hover {
+      color: var(--link);
+    }
+    @media (max-width: 768px) {
+      font-size: 4vw;
+      padding: 2vw 3vw;
+    }
+    @media (max-width: 1024px) and (min-width: 769px) {
+      font-size: 2vw;
+      padding: 1.5vw 2vw;
+    }
+
+    & span {
+      display: none;
+    }
+  }
+}

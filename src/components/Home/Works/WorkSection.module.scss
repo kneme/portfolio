@@ -1,0 +1,56 @@
+.grid {
+  display: grid;
+  gap: 2vw;
+  grid-template-columns: 1fr 1fr;
+  @media (max-width: 768px) {
+    gap: 3vw;
+    grid-template-columns: 1fr;
+  }
+}
+
+.workCard {
+  background-color: var(--card-bg);
+  border: none;
+  border-radius: 0.5vw;
+  padding-top: 4vw;
+  text-align: center;
+  @media (max-width: 768px) {
+    background-color: transparent;
+    border-radius: 1vw;
+    padding: 0;
+  }
+  @media (max-width: 1024px) and (min-width: 769px) {
+    border-radius: 1vw;
+    padding-top: 2.5vw;
+  }
+
+  img {
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.2s;
+    width: 80%;
+    &:hover {
+      transform: scale(1.03);
+      @media (max-width: 768px) {
+        transform: none;
+      }
+    }
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    @media (max-width: 1024px) and (min-width: 769px) {
+      width: 90%;
+    }
+  }
+
+  h3 {
+    font-size: 1.28vw;
+    margin-bottom: 2vw;
+    @media (max-width: 768px) {
+      display: none;
+    }
+    @media (max-width: 1024px) and (min-width: 769px) {
+      font-size: 1.7vw;
+    }
+  }
+}
