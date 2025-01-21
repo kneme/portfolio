@@ -9,7 +9,7 @@
   z-index: 1;
   @include flexboxSetup(flex, space-between, center);
   @media (max-width: 768px) {
-    padding: 4vw 4vw 3vw 4vw;
+    padding: 4vw 5vw 3vw 8vw;
   }
 
   h2 {
@@ -17,7 +17,7 @@
     font-weight: bold;
     margin: 0;
     @media (max-width: 768px) {
-      font-size: 4vw;
+      font-size: 5vw;
     }
     @media (max-width: 1024px) and (min-width: 769px) {
       font-size: 3vw;

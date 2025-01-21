@@ -10,9 +10,9 @@ const HomePage = () => {
       <Header />
       <main className={styles.main}>
         <h1>
-          <span>Welcome! 👋</span>
-          <span>I&apos;m Ben - a passionate Web Developer</span>
-          <span>exploring the digital world from</span>Reunion Island.
+          <span>Welcome! 👋 </span>
+          <span>I&apos;m Ben - a passionate Web Developer </span>
+          <span>exploring the digital world from </span>Reunion Island.
         </h1>
         <WorkSection />
         <EducationSection />
